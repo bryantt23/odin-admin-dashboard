@@ -29,3 +29,7 @@ body {
   display: grid;
   grid-template-columns: 7fr 3fr;
 }
+
+.dashboard-section {
+  padding: 10px 0 10px 5px;
+}
