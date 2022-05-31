@@ -51,10 +51,6 @@ body {
   padding: 5px;
 }
 
-.announcements {
-  background-color: aqua;
-}
-
 img {
   max-height: 100%;
   max-width: 100%;
@@ -75,4 +71,8 @@ img {
 
 .card-container {
   padding: 2px 16px;
+}
+
+.list {
+  padding-left: 20px;
 }
