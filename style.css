@@ -4,6 +4,7 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: white;
   font-weight: 500;
+  color: black;
 }
 
 .container {
@@ -14,11 +15,9 @@ body {
 }
 
 .header {
-  grid-column: 2/3;
   display: grid;
   background-color: white;
   color: #000;
-  grid-template-columns: repeat(4, 1fr);
 }
 
 .left-header {
@@ -33,14 +32,47 @@ body {
   grid-row: 1/3;
   background-color: dodgerblue;
   padding: 0 20px 50px;
+  color: white;
 }
 
 .main {
-  background-color: lavender;
   display: grid;
   grid-template-columns: 7fr 3fr;
 }
 
 .dashboard-section {
   padding: 10px 0 10px 5px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-column: 1fr 1fr; */
+  padding: 5px;
+}
+
+.announcements {
+  background-color: aqua;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.project-header {
+  grid-column: 1/3;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 80%;
+  margin: 10px 5px;
+  border-radius: 5px;
+}
+
+.card-container {
+  padding: 2px 16px;
 }
