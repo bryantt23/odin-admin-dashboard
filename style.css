@@ -64,7 +64,7 @@ img {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 80%;
+  height: 50%;
   margin: 10px 5px;
   border-radius: 5px;
 }
@@ -75,4 +75,20 @@ img {
 
 .list {
   padding-left: 20px;
+}
+
+.extra {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.announcements {
+  display: grid;
+  grid-row: 1/2;
+  grid-template-rows: 1fr 10fr;
+}
+
+.card-extra {
+  height: 90%;
+  margin-bottom: 5px;
 }
